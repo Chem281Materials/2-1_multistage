@@ -3,7 +3,7 @@
 ## Task 1
 
 You have previously used Docker to create a deployment image for MOPAC.
-You will now create a new deployment image for MOPAC, with the additional requirement that it must use a multi-stage build process.
+**You will now create a new deployment image for MOPAC, with the additional requirement that it must use a multi-stage build process.**
 
 The GitHub repository for MOPAC is available [here](https://github.com/openmopac/mopac). Note that although there are already Docker containers available for MOPAC, yours must conform to the following constraints: (1) it must use the `ubuntu:22.04` image as its base; (2) it must build MOPAC from source, using CMake (the MOPAC documentation in the `README.md` file linked above describes how to build MOPAC using CMake); (3) it must be possible for the end-user to run MOPAC with the following command:
 
